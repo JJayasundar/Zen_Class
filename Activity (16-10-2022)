@@ -1,0 +1,4 @@
+1) touch file{1..10}.txt | echo "Guvi" | tee file{1..10}.txt
+2) mkdir technology
+   mv f{1..10}.txt technology/
+   tar -cvzf technology.tar.gz technology/
